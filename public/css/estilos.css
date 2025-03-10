@@ -1,0 +1,21 @@
+.alerta {
+   
+    animation: mostrar 2s ease-in-out;
+    opacity: 0;
+    z-index: 1;
+}
+
+@keyframes mostrar {
+    from {
+        opacity: 1;
+    }
+
+    98% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
